@@ -1,65 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Metadata of the Webpage -->
-    <!-- Character-set Metadata -->
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <!-- Viewport Metadata -->
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!-- Description Metadata-->
-    <meta name="description" content="My Portfolio" />
-    <!-- Author Metadata -->
-    <meta name="author" content="Aditya Vikram Singh" />
-    <!-- Keyword Metadata -->
-    <meta
-      name="keywords"
-      content="Louretta Eyina, Ejiro Louretta Eyina, Louretta Eyina,
-      Ejiro Eyina Ontario,Louretta Eyina Toronto, Devops Engineer Ontario
-      Cloud Enginer Ontario, Louretta Eyina Devops"
-  />
-  <!-- Webpage Logo -->
-  <link rel="shortcut icon" href="./assets/img/favicon.ico" />
-  <!-- Webpage Title -->
-  <title>Ejiro Louretta Eyina</title>
-
-    <!-- Import CSS: Main Stylesheet -->
-    <link rel="stylesheet" href="./assets/css/main.css" />
-  </head>
-
-  <body>
-    <div id="particles-js">
-      <div class="header">
-        <h1>
-          <span class="site-title">Louretta Eyina</span>
-          <span class="site-description">Devops Engineer • Cloud Practitioner• Infrastructure Egineer</span>
-        </h1>
-        <div class="header-icons">
-          <a aria-label="My LinkedIn Profile" target="_blank" href="www.linkedin.com/in/louretta-eyina-404409277/">
-            <i class="icon fa fa-linkedin" aria-hidden="true"></i>
-          </a>
-          <a aria-label="Send Email" href="mailto:eyinaejiro@gmail.com" target="_blank"
-            ><i class="icon fa fa-envelope"></i
-          ></a>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Your Name</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .grid-2 {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 20px;
+            padding: 20px;
+        }
+        .section-1 {
+            background: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .section-1 h2 {
+            margin-top: 10px;
+        }
+        .section-1 a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+        .section-2 {
+            background: white;
+            color: #333;
+            padding: 20px;
+        }
+        .section-2 h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+        }
+        .section-2 a {
+            display: block;
+            color: #333;
+            text-decoration: none;
+            margin-bottom: 10px;
+        }
+        .section-2 a:hover {
+            text-decoration: underline;
+        }
+        .project-image {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+  <div class="grid-2">
+    <div class="section-1">
+        <img src="images/profile-img.jpeg" alt="Louretta Eyina">
+        <h2>Louretta Eyina</h2>
+        <p>Oshawa, Ontario</p>
+        <a href="mailto:eyinaejiro@gmail.com"><i class="fas fa-envelope"></i></a>
+        <a href="https://www.linkedin.com/in/louretta-eyina-404409277" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/yourprofile" target="_blank"><i class="fab fa-github"></i></a>
+      </div>
+      <div class="section-2">
+          <h2>About</h2>
+          <p>I'm a passionate DevOps innovator who bridges business and tech worlds. I transform IT challenges into streamlined, scalable solutions using AWS and Azure. From support roles to cloud orchestration, my journey fuels a passion for continuous improvement. Turning complexity into efficiency – that's my code.</p>
+          <h2>Current Position</h2>
+          <p>DevOps Engineer at Cloudhight.</p>
+          <h2>Technical Skills</h2>
+          <p>Platforms: Windows, Red Hat, Ubuntu, Linux</p>
+          <p>Tools & Technologies: Git, Docker, Ansible, Kubernetes, Jenkins, Docker Swarm, JIRA, Terraform</p>
+          <p>Languages & Services: Python, Shell Scripting (Bash), AWS, Azure</p>
+          <p>Monitoring & Logging: Prometheus, Grafana, New Relic.</p>
+          <h2>Projects</h2>
+          <div>
+            <div>
+                <a href="https://github.com/Louretta/java-monolitic-app.git" target="_blank">
+                    <img src="images/c:\Users\Home\OneDrive\Desktop\Archetechural diagram.jpeg" alt="Project 1" class="project-image">
+                    <p>Java Monolitic Application.</p>
+                    <p>Designed and implemented a scalable cloud infrastructure for a web application using AWS. Automated the provisioning and management of resources using Terraform and Ansible.
+                      Key Tools: AWS, Terraform, Ansible, Docker, Kubernetes, Jenkins
+                      Results: Reduced deployment times by 50% and improved system reliability by 30% through automated monitoring and error detection</p>
+                </a>
+            </div>
+            <div>
+                <a href="https://yourprojectlink2.com" target="_blank">
+                    <img src="https://via.placeholder.com/300x200" alt="Project 2" class="project-image">
+                    <p>Project 2: Lorem ipsum dolor sit amet.</p>
+                </a>
+            </div>
+            <div>
+                <a href="https://yourprojectlink3.com" target="_blank">
+                    <img src="https://via.placeholder.com/300x200" alt="Project 3" class="project-image">
+                    <p>Project 3: Lorem ipsum dolor sit amet.</p>
+                </a>
+            </div>
+            <div>
+                <a href="https://yourprojectlink4.com" target="_blank">
+                    <img src="https://via.placeholder.com/300x200" alt="Project 4" class="project-image">
+                    <p>Project 4: Lorem ipsum dolor sit amet.</p>
+                </a>
+            </div>
+            <div>
+                <a href="https://yourprojectlink5.com" target="_blank">
+                    <img src="https://via.placeholder.com/300x200" alt="Project 5" class="project-image">
+                    <p>Project 5: Lorem ipsum dolor sit amet.</p>
+                </a>
+            </div>
+            <h2>Contact</h2>
+            <p>Email: myEmail@email.com</p>
         </div>
-        <div class="header-links">
-          <a class="link" href="#about" data-scroll>About Me</a>
-          <a class="link" href="#projects" data-scroll>Projects</a>
-        </div>
-
     </div>
-    <a class="down" href="#about" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
-  </div>
-
-  <!-- About Section -->
-  <section id="about">
-    <!-- User Introduction-->
-    <div class="user-details">
-      <h1>My Background</h1>
-      <img
-          src="image/profile-img.jpeg"
-          alt="Professional Me"
-          width="20%"
-          style="border-radius: 50%"
-        />
-                
+</body>
+</html>
